@@ -2,5 +2,25 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+  min-height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header-icon {
+  background-color: rgba(156, 156, 156, 0.833);
+  display: inline;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.first {
+  margin-right: 10px;
 }
